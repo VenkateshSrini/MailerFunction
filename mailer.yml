@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway:  http://40.71.17.86:8080
+
+functions:
+  mailer:
+    lang: csharp
+    handler: ./mailer
+    image: venkateshsrini3/mailer
